@@ -1,0 +1,5 @@
+3/20/17
+scp prvasque@farm.cse.ucdavis.edu:/(paste what I get from pwd)/*.html .
+pwd = print working directory
+
+didnt end up working
