@@ -70,8 +70,10 @@ Java wasnt loaded
 `module load java/1.8`
 
 Tried trinity command again and got the error code
-`No command 'Trinity' found, did you mean:
+```
+No command 'Trinity' found, did you mean:
  Command 'trinity' from package 'trinity' (universe)
-Trinity: command not found`
+Trinity: command not found
+```
 
 Couldn't figure it out.
