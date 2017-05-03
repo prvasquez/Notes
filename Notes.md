@@ -48,8 +48,10 @@ cd ${PROJECT}
 module load trinity
 ```
 Got an error
-`trinity/2.2.0(5):ERROR:151: Module 'trinity/2.2.0' depends on one of the module(s) 'rsem/1.3.0 rsem/1.2.23 rsem/1.2.11'
+```
+trinity/2.2.0(5):ERROR:151: Module 'trinity/2.2.0' depends on one of the module(s) 'rsem/1.3.0 rsem/1.2.23 rsem/1.2.11'
 trinity/2.2.0(5):ERROR:102: Tcl command execution failed: prereq rsem`
+```
 Then did
 ```
 module load rsem/1.3.0
