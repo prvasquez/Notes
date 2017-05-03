@@ -37,7 +37,9 @@ Still didn't work
 Ended at the "Assembling with Trinity" step in step 3
 
 5/3/2017
+
 DONT FORGET
+
 **srun -p high -t 24:00:00 --mem=40000 --pty bash**
 
 ```
