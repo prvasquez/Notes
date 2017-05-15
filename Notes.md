@@ -77,3 +77,17 @@ Trinity: command not found
 ```
 
 Couldn't figure it out.
+
+5/15/17
+
+Retried and it worked. No idea why.
+```
+source ~/.bashrc
+cd ${PROJECT}
+module load rsem/1.3.0
+cd assembly
+module load trinity
+```
+
+/home/prvasque/work/assembly/trinity_out_dir/Trinity.fasta
+Important file
