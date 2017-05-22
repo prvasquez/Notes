@@ -91,3 +91,27 @@ module load trinity
 
 /home/prvasque/work/assembly/trinity_out_dir/Trinity.fasta
 Important file
+
+5/21/17
+
+```
+source ~/.bashrc
+module load rsem/1.3.0
+module load tinity
+source activate eel-pond
+cd work
+cd data
+```
+Ran this command
+```
+transrate --assembly=Trinity.fixed.fasta --threads=2 \
+  --left=left.fq.gz \
+  --right=right.fq.gz \
+  --output=${PROJECT}/evaluation/nema
+```
+The output was
+```
+No command 'transrate' found, did you mean:
+Command 'translate' from package 'translate' (universe)
+transrate: command not found
+```
