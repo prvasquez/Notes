@@ -115,3 +115,12 @@ No command 'transrate' found, did you mean:
 Command 'translate' from package 'translate' (universe)
 transrate: command not found
 ```
+
+6/3/17
+Tried to install transrate. First tried to download file and open on computer (didn't work, unable to open file). Then downloaded ruby to try to install that way. Ruby installed fine, however, unable to 
+`gem install transrate`
+I got error message
+`access denied`
+So I tried to
+`sudo gem install transrate`
+This gave me the option to enter a password. However, none of the passwords I entered worked.
