@@ -124,3 +124,8 @@ I got error message
 So I tried to
 `sudo gem install transrate`
 This gave me the option to enter a password. However, none of the passwords I entered worked.
+
+
+
+7/11/17
+When transfering files from bash to windows opperating system you have to copy it to /mnt/c/(whatever). Can't do from farm cluster.
